@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/giraffe"
+    tools:context=".AddNewAnimalActivity">
+
+    <ProgressBar
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone">
+
+    </ProgressBar>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+
+            android:id="@+id/firstRl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="5dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_Iv"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="@drawable/peson"
+                app:civ_border_color="@color/black"
+                app:civ_border_width="1dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/changeDp_Fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_Iv"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-40dp"
+                android:backgroundTint="@color/green"
+                android:src="@drawable/ic_baseline_add_24"
+                app:fabSize="mini"
+                app:maxImageSize="20dp"
+                app:rippleColor="@color/white"
+                app:tint="@color/white"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/enter_animal_name"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </EditText>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/animal_type"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <RadioGroup
+            android:id="@+id/typeRg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/airRb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/air"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/landRb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/land"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/waterRb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/water"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </RadioButton>
+
+            <RadioButton
+                android:id="@+id/insectsRb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/insects"
+                android:textColor="@color/black"
+                android:textSize="16sp">
+
+            </RadioButton>
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/descEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/enter_description"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:background="@drawable/buttonshape"
+        android:onClick="saveData"
+        android:text="@string/save"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="18sp">
+
+    </Button>
+
+
+</RelativeLayout>

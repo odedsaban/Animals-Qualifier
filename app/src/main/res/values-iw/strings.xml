@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">אינדקס חיות</string>
+    <string name="Login">התחברות</string>
+    <string name="Add_Animal">הוסף בעל חיים</string>
+    <string name="Existind_Animals">חיות קיימות</string>
+    <string name="enter_animal_name">הזן את שם החיה</string>
+    <string name="animal_type">סוג בעל החיים</string>
+    <string name="chooseType">בחר סוג חיה</string>
+    <string name="air">בעלות כנף</string>
+    <string name="land">יבשה</string>
+    <string name="water">תת ימיות</string>
+    <string name="insect">חרקים</string>
+    <string name="enter_description">הזן תיאור</string>
+    <string name="save">שמור</string>
+    <string name="air_animals">חיות בעלות כנף</string>
+    <string name="land_animals">חיות יבשה</string>
+    <string name="water_animals">חיות תת ימיות</string>
+    <string name="share">שתף</string>
+    <string name="search_here">חפש כאן</string>
+    <string name="change_language">שנה שפה</string>
+
+    <string name="name"> שם : </string>
+    <string name="type">סוג : </string>
+    <string name="description"> תיאור : </string>
+    <string name="insects">חרקים</string>
+    <string name="edit">ערוך</string>
+</resources>

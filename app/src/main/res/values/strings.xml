@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Animals Qualifier</string>
+    <string name="Login">Login</string>
+    <string name="Add_Animal">Add animal</string>
+    <string name="Existind_Animals">Existing animals</string>
+    <string name="enter_animal_name">Enter animal name</string>
+    <string name="animal_type">Animal type</string>
+    <string name="chooseType">Choose animal type</string>
+    <string name="air">Air</string>
+    <string name="land">Land</string>
+    <string name="water">Water</string>
+    <string name="insect">Insect</string>
+    <string name="enter_description">Enter description</string>
+    <string name="save">Save</string>
+    <string name="air_animals">Air animals</string>
+    <string name="land_animals">Land animals</string>
+    <string name="water_animals">Water animals</string>
+    <string name="share">Share</string>
+    <string name="search_here">Search here</string>
+    <string name="change_language">Change Language</string>
+    <string name="name">Name : </string>
+    <string name="type">Type : </string>
+    <string name="description">Description : </string>
+    <string name="insects">Insects</string>
+    <string name="edit">Edit</string>
+
+</resources>

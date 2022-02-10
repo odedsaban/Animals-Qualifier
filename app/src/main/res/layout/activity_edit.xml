@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditActivity">
+
+    <ProgressBar
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:id="@+id/pb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </ProgressBar>
+
+    <LinearLayout
+
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RelativeLayout
+
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/firstRl"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_Iv"
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:background="@drawable/peson"
+                app:civ_border_color="@color/green"
+                app:civ_border_width="1dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/changeDp_Fab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/profile_Iv"
+                android:layout_marginLeft="110dp"
+                android:layout_marginTop="-40dp"
+                android:backgroundTint="@color/green"
+                android:src="@drawable/ic_baseline_add_24"
+                app:fabSize="mini"
+                app:maxImageSize="20dp"
+                app:rippleColor="@color/white"
+                app:tint="@color/white"></com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+        </RelativeLayout>
+
+
+        <EditText
+            android:id="@+id/nameEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/enter_animal_name"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </EditText>
+
+
+        <EditText
+            android:id="@+id/descEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:hint="@string/enter_description"
+            android:textColor="@color/black"
+            android:textSize="18sp">
+
+        </EditText>
+
+    </LinearLayout>
+
+    <Button
+        android:onClick="saveData"
+        android:textAllCaps="false"
+        android:text="@string/save"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttonshape"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</RelativeLayout>

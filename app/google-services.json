@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "67637762121",
+    "project_id": "zoo-directory",
+    "storage_bucket": "zoo-directory.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67637762121:android:100f63c5682169c2224798",
+        "android_client_info": {
+          "package_name": "com.example.animalsqualifier"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "67637762121-dkh7c53k9mmn7urhdahlvc7e7dekeg0i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjSFxKIfKhP4dXS50J83-pYSgQcCVnHKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "67637762121-dkh7c53k9mmn7urhdahlvc7e7dekeg0i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
